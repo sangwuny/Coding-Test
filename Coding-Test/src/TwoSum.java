@@ -2,6 +2,13 @@ import java.util.*;
 
 // https://leetcode.com/problems/two-sum/description/
 
+/**
+ * Find two indices whose sum equals target.
+ * Input: nums, target
+ * Output: indices
+ * Key: one-pass HashMap
+ */
+
 public class TwoSum {
     class Solution {
         public int[] twoSum(int[] nums, int target) {
